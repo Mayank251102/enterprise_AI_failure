@@ -1,0 +1,301 @@
+project_id,industry,company_size,region,project_type,outcome,budget_usd_m,duration_months,primary_failure_reason,secondary_failure_reason,data_readiness_score,leadership_support_score,talent_score,change_mgmt_score,year_launched,roi_pct,has_dedicated_ai_team,used_external_vendor,has_data_governance
+AIPROJ-1000,Healthcare,Small (<200),Asia-Pacific,Computer Vision,Partial Failure,0.48,21,Change Management Issues,No Clear Business Use Case,6,3,5,6,2024,60.3,True,False,False
+AIPROJ-1001,Healthcare,Small (<200),Middle East & Africa,Recommendation Engine,Succeeded,0.1,18,Poor Data Quality,Lack of Skilled Talent,7,7,5,7,2019,114.3,True,False,True
+AIPROJ-1002,Manufacturing,Mid-size (200-1000),Middle East & Africa,Process Automation,Failed,1.41,14,Poor Data Quality,Lack of Executive Sponsorship,5,4,4,2,2020,-33.2,False,True,True
+AIPROJ-1003,Education,Mid-size (200-1000),Latin America,Process Automation,Partial Failure,0.77,15,Insufficient Budget,Poor Data Quality,6,4,2,1,2020,24.1,False,True,False
+AIPROJ-1004,Education,Large (1000-5000),Asia-Pacific,Computer Vision,Failed,3.57,17,Change Management Issues,Model Performance Gaps,4,1,4,3,2019,-8.9,True,False,True
+AIPROJ-1005,Healthcare,Enterprise (5000+),North America,Predictive Analytics,Failed,12.44,17,Regulatory/Compliance Hurdles,Insufficient Budget,4,1,3,5,2019,-16.4,False,False,False
+AIPROJ-1006,Energy,Small (<200),Latin America,NLP/Chatbot,Failed,0.45,8,Vendor/Tech Dependency,Insufficient Budget,6,3,4,5,2024,-48.0,False,True,False
+AIPROJ-1007,Government,Mid-size (200-1000),North America,NLP/Chatbot,Partial Failure,1.96,20,Change Management Issues,Regulatory/Compliance Hurdles,5,3,3,3,2019,25.7,True,False,False
+AIPROJ-1008,Manufacturing,Small (<200),Latin America,Predictive Analytics,Failed,0.3,16,Siloed Organizational Structure,Regulatory/Compliance Hurdles,5,6,4,2,2020,-40.0,False,True,True
+AIPROJ-1009,Government,Large (1000-5000),Europe,Generative AI,Failed,5.65,15,Insufficient Budget,Lack of Skilled Talent,2,3,7,3,2023,-47.2,False,True,True
+AIPROJ-1010,Retail,Mid-size (200-1000),Europe,Recommendation Engine,Partial Failure,1.73,3,Model Performance Gaps,Insufficient Budget,5,3,4,4,2024,41.7,True,False,True
+AIPROJ-1011,Manufacturing,Large (1000-5000),North America,Computer Vision,Partial Failure,2.52,12,Poor Data Quality,Model Performance Gaps,3,5,7,3,2022,43.3,True,True,True
+AIPROJ-1012,Technology,Small (<200),Europe,Process Automation,Failed,0.3,24,Regulatory/Compliance Hurdles,Change Management Issues,5,5,3,6,2024,-58.0,False,True,False
+AIPROJ-1013,Energy,Enterprise (5000+),Latin America,Computer Vision,Succeeded,11.78,29,Insufficient Budget,No Clear Business Use Case,7,7,7,8,2020,106.9,False,False,False
+AIPROJ-1014,Technology,Enterprise (5000+),Middle East & Africa,Recommendation Engine,Failed,36.09,21,Regulatory/Compliance Hurdles,Change Management Issues,4,3,3,3,2020,-18.9,False,False,False
+AIPROJ-1015,Energy,Small (<200),North America,Fraud Detection,Partial Failure,0.2,24,Lack of Skilled Talent,Change Management Issues,4,3,3,5,2024,54.4,False,False,False
+AIPROJ-1016,Retail,Enterprise (5000+),Middle East & Africa,NLP/Chatbot,Ongoing (At Risk),8.79,19,Model Performance Gaps,Siloed Organizational Structure,3,6,6,2,2023,,False,True,True
+AIPROJ-1017,Energy,Large (1000-5000),Middle East & Africa,Fraud Detection,Failed,4.93,21,Poor Data Quality,No Clear Business Use Case,5,5,6,1,2024,15.5,True,False,False
+AIPROJ-1018,Technology,Large (1000-5000),North America,Predictive Analytics,Partial Failure,9.14,18,Model Performance Gaps,No Clear Business Use Case,6,5,10,4,2022,16.9,False,True,True
+AIPROJ-1019,Financial Services,Large (1000-5000),Middle East & Africa,Fraud Detection,Succeeded,2.35,17,No Clear Business Use Case,Lack of Executive Sponsorship,7,7,6,6,2019,169.2,True,False,False
+AIPROJ-1020,Technology,Mid-size (200-1000),Europe,Predictive Analytics,Failed,1.08,6,No Clear Business Use Case,Lack of Executive Sponsorship,3,5,5,2,2023,-26.5,False,False,True
+AIPROJ-1021,Financial Services,Large (1000-5000),Latin America,NLP/Chatbot,Ongoing (At Risk),4.87,20,Lack of Skilled Talent,Model Performance Gaps,3,2,7,3,2021,,True,False,True
+AIPROJ-1022,Manufacturing,Small (<200),Europe,Process Automation,Failed,0.42,19,Lack of Skilled Talent,No Clear Business Use Case,4,4,7,6,2024,-29.9,False,False,False
+AIPROJ-1023,Energy,Small (<200),Middle East & Africa,Fraud Detection,Failed,0.45,18,No Clear Business Use Case,Change Management Issues,3,7,4,2,2024,-39.1,False,False,False
+AIPROJ-1024,Energy,Mid-size (200-1000),Asia-Pacific,Process Automation,Failed,0.56,15,Lack of Executive Sponsorship,Model Performance Gaps,6,4,3,2,2020,-16.4,False,False,False
+AIPROJ-1025,Manufacturing,Large (1000-5000),Latin America,Generative AI,Failed,5.29,13,Regulatory/Compliance Hurdles,Vendor/Tech Dependency,5,2,1,2,2023,-13.2,True,False,False
+AIPROJ-1026,Energy,Small (<200),Europe,Computer Vision,Ongoing (At Risk),0.26,15,Lack of Skilled Talent,Model Performance Gaps,4,4,2,5,2019,,True,False,True
+AIPROJ-1027,Manufacturing,Mid-size (200-1000),North America,NLP/Chatbot,Ongoing (At Risk),1.15,25,Poor Data Quality,Insufficient Budget,2,4,4,2,2019,,True,True,True
+AIPROJ-1028,Financial Services,Large (1000-5000),North America,Process Automation,Succeeded,7.63,12,Change Management Issues,Regulatory/Compliance Hurdles,7,4,3,6,2024,95.1,True,False,False
+AIPROJ-1029,Energy,Mid-size (200-1000),Middle East & Africa,Computer Vision,Succeeded,0.89,37,Lack of Executive Sponsorship,Siloed Organizational Structure,7,8,8,7,2020,182.0,False,False,True
+AIPROJ-1030,Energy,Enterprise (5000+),Europe,NLP/Chatbot,Ongoing (At Risk),25.62,22,Lack of Skilled Talent,Siloed Organizational Structure,4,4,5,3,2021,,True,False,False
+AIPROJ-1031,Education,Enterprise (5000+),Latin America,Fraud Detection,Failed,16.73,19,Poor Data Quality,No Clear Business Use Case,7,4,6,3,2019,-31.8,False,False,True
+AIPROJ-1032,Education,Large (1000-5000),North America,Computer Vision,Succeeded,8.45,14,Change Management Issues,Insufficient Budget,7,7,8,6,2023,166.9,False,True,False
+AIPROJ-1033,Energy,Mid-size (200-1000),Latin America,Computer Vision,Ongoing (At Risk),0.86,16,Insufficient Budget,Vendor/Tech Dependency,5,1,1,3,2020,,True,True,True
+AIPROJ-1034,Healthcare,Enterprise (5000+),Middle East & Africa,NLP/Chatbot,Failed,45.74,16,Poor Data Quality,Lack of Executive Sponsorship,3,7,7,1,2019,-38.9,True,True,True
+AIPROJ-1035,Healthcare,Mid-size (200-1000),Europe,Recommendation Engine,Succeeded,1.67,28,Siloed Organizational Structure,Vendor/Tech Dependency,7,7,5,6,2020,192.3,True,True,False
+AIPROJ-1036,Education,Small (<200),Europe,Recommendation Engine,Ongoing (At Risk),0.13,9,Poor Data Quality,Siloed Organizational Structure,2,3,5,4,2021,,True,False,True
+AIPROJ-1037,Energy,Large (1000-5000),Latin America,Generative AI,Partial Failure,4.03,26,Vendor/Tech Dependency,Siloed Organizational Structure,6,1,7,5,2020,56.1,False,False,False
+AIPROJ-1038,Manufacturing,Large (1000-5000),Europe,NLP/Chatbot,Partial Failure,4.29,22,Lack of Executive Sponsorship,Vendor/Tech Dependency,3,4,5,5,2019,54.5,False,True,True
+AIPROJ-1039,Government,Small (<200),North America,Process Automation,Failed,0.5,18,Siloed Organizational Structure,Lack of Executive Sponsorship,3,6,6,4,2023,-47.5,True,False,True
+AIPROJ-1040,Retail,Small (<200),Middle East & Africa,NLP/Chatbot,Partial Failure,0.24,16,No Clear Business Use Case,Lack of Skilled Talent,3,4,6,6,2023,64.0,False,True,True
+AIPROJ-1041,Healthcare,Mid-size (200-1000),Latin America,NLP/Chatbot,Failed,1.91,14,Lack of Executive Sponsorship,Change Management Issues,7,1,5,5,2023,-36.2,False,False,False
+AIPROJ-1042,Financial Services,Small (<200),Latin America,Generative AI,Failed,0.34,10,Lack of Executive Sponsorship,Vendor/Tech Dependency,5,4,6,4,2021,-79.0,True,False,True
+AIPROJ-1043,Technology,Mid-size (200-1000),Asia-Pacific,Computer Vision,Ongoing (At Risk),1.3,12,Insufficient Budget,Siloed Organizational Structure,4,4,8,4,2020,,False,True,True
+AIPROJ-1044,Technology,Enterprise (5000+),Asia-Pacific,Fraud Detection,Partial Failure,10.81,18,Lack of Skilled Talent,Poor Data Quality,5,5,3,1,2022,70.6,True,False,True
+AIPROJ-1045,Healthcare,Small (<200),Middle East & Africa,Computer Vision,Partial Failure,0.43,23,Vendor/Tech Dependency,Insufficient Budget,3,4,8,1,2020,31.9,False,False,False
+AIPROJ-1046,Government,Small (<200),Europe,Predictive Analytics,Failed,0.15,7,Insufficient Budget,No Clear Business Use Case,6,5,5,4,2022,-73.4,False,False,True
+AIPROJ-1047,Technology,Small (<200),Middle East & Africa,Predictive Analytics,Partial Failure,0.38,16,Lack of Skilled Talent,Change Management Issues,6,4,6,1,2021,69.1,True,True,True
+AIPROJ-1048,Healthcare,Small (<200),Middle East & Africa,Computer Vision,Failed,0.15,20,Insufficient Budget,Regulatory/Compliance Hurdles,3,3,3,3,2023,-10.9,False,False,False
+AIPROJ-1049,Manufacturing,Large (1000-5000),Europe,Generative AI,Failed,8.57,10,Insufficient Budget,Lack of Executive Sponsorship,2,4,4,1,2022,-19.7,False,True,False
+AIPROJ-1050,Technology,Small (<200),North America,Generative AI,Ongoing (At Risk),0.12,21,Model Performance Gaps,Insufficient Budget,6,5,4,2,2019,,True,True,False
+AIPROJ-1051,Financial Services,Large (1000-5000),Europe,Generative AI,Failed,8.08,21,Insufficient Budget,No Clear Business Use Case,7,4,6,2,2024,-20.6,True,False,False
+AIPROJ-1052,Energy,Enterprise (5000+),Middle East & Africa,NLP/Chatbot,Partial Failure,15.91,21,Lack of Skilled Talent,No Clear Business Use Case,3,2,4,2,2024,78.7,False,True,True
+AIPROJ-1053,Retail,Small (<200),Asia-Pacific,Process Automation,Partial Failure,0.39,23,Vendor/Tech Dependency,No Clear Business Use Case,7,6,1,5,2022,59.2,False,True,True
+AIPROJ-1054,Retail,Small (<200),Asia-Pacific,Predictive Analytics,Succeeded,0.34,16,Poor Data Quality,Model Performance Gaps,7,7,4,6,2020,129.7,True,True,True
+AIPROJ-1055,Manufacturing,Small (<200),Asia-Pacific,Fraud Detection,Succeeded,0.12,15,Vendor/Tech Dependency,Model Performance Gaps,8,7,9,7,2023,167.7,True,False,True
+AIPROJ-1056,Retail,Mid-size (200-1000),Europe,Fraud Detection,Succeeded,0.78,22,No Clear Business Use Case,Siloed Organizational Structure,6,5,2,7,2019,155.4,True,True,True
+AIPROJ-1057,Retail,Large (1000-5000),Latin America,Fraud Detection,Succeeded,4.57,12,Change Management Issues,Regulatory/Compliance Hurdles,5,9,9,4,2020,89.0,True,False,True
+AIPROJ-1058,Healthcare,Enterprise (5000+),North America,Fraud Detection,Ongoing (At Risk),39.21,19,Siloed Organizational Structure,Change Management Issues,3,7,1,2,2020,,False,False,False
+AIPROJ-1059,Energy,Large (1000-5000),Asia-Pacific,Fraud Detection,Partial Failure,9.46,22,Change Management Issues,Insufficient Budget,4,5,6,5,2019,57.8,False,True,False
+AIPROJ-1060,Manufacturing,Enterprise (5000+),Asia-Pacific,Predictive Analytics,Ongoing (At Risk),28.54,23,Lack of Skilled Talent,Regulatory/Compliance Hurdles,4,6,4,1,2021,,False,False,True
+AIPROJ-1061,Education,Large (1000-5000),North America,NLP/Chatbot,Partial Failure,6.62,11,Insufficient Budget,No Clear Business Use Case,2,1,4,4,2023,49.8,True,True,False
+AIPROJ-1062,Technology,Small (<200),North America,Process Automation,Failed,0.16,8,Model Performance Gaps,Regulatory/Compliance Hurdles,5,6,7,4,2024,-39.7,True,True,False
+AIPROJ-1063,Government,Enterprise (5000+),Middle East & Africa,Process Automation,Failed,14.2,20,Lack of Skilled Talent,Siloed Organizational Structure,4,6,4,4,2023,-74.9,False,False,False
+AIPROJ-1064,Manufacturing,Large (1000-5000),North America,Generative AI,Succeeded,3.2,22,Model Performance Gaps,Poor Data Quality,8,6,7,8,2023,161.5,True,True,False
+AIPROJ-1065,Manufacturing,Large (1000-5000),Latin America,NLP/Chatbot,Succeeded,4.74,29,Regulatory/Compliance Hurdles,Model Performance Gaps,7,6,7,5,2024,134.2,False,True,False
+AIPROJ-1066,Healthcare,Large (1000-5000),Middle East & Africa,Predictive Analytics,Partial Failure,7.57,15,Model Performance Gaps,Regulatory/Compliance Hurdles,4,4,6,2,2022,18.2,False,False,False
+AIPROJ-1067,Technology,Mid-size (200-1000),Europe,Recommendation Engine,Succeeded,0.68,29,Model Performance Gaps,No Clear Business Use Case,6,7,6,6,2023,95.6,True,True,True
+AIPROJ-1068,Technology,Enterprise (5000+),Middle East & Africa,Fraud Detection,Failed,20.08,11,Poor Data Quality,Regulatory/Compliance Hurdles,2,1,7,4,2021,-55.8,False,True,False
+AIPROJ-1069,Manufacturing,Enterprise (5000+),Middle East & Africa,Process Automation,Failed,46.07,10,Regulatory/Compliance Hurdles,Vendor/Tech Dependency,5,1,7,2,2022,-48.1,True,True,True
+AIPROJ-1070,Energy,Mid-size (200-1000),Middle East & Africa,Recommendation Engine,Succeeded,0.72,13,No Clear Business Use Case,Lack of Skilled Talent,6,7,5,7,2021,117.9,False,True,False
+AIPROJ-1071,Government,Small (<200),Europe,Generative AI,Failed,0.29,18,Insufficient Budget,Change Management Issues,2,6,6,5,2020,-9.2,False,False,False
+AIPROJ-1072,Retail,Small (<200),North America,Computer Vision,Partial Failure,0.32,11,Siloed Organizational Structure,Lack of Skilled Talent,3,3,2,2,2022,22.8,True,False,False
+AIPROJ-1073,Education,Mid-size (200-1000),Latin America,Recommendation Engine,Succeeded,1.11,28,Model Performance Gaps,Change Management Issues,5,8,5,5,2020,76.7,True,True,False
+AIPROJ-1074,Financial Services,Small (<200),Latin America,Computer Vision,Failed,0.14,24,No Clear Business Use Case,Lack of Executive Sponsorship,5,2,5,4,2022,2.9,True,True,True
+AIPROJ-1075,Financial Services,Mid-size (200-1000),North America,Recommendation Engine,Failed,1.45,11,No Clear Business Use Case,Vendor/Tech Dependency,5,4,8,5,2024,-25.5,True,True,False
+AIPROJ-1076,Government,Enterprise (5000+),Middle East & Africa,Fraud Detection,Partial Failure,17.06,22,Vendor/Tech Dependency,Model Performance Gaps,2,6,1,6,2023,49.2,False,False,True
+AIPROJ-1077,Energy,Mid-size (200-1000),Latin America,Recommendation Engine,Partial Failure,1.98,17,Insufficient Budget,Change Management Issues,2,4,10,1,2024,62.4,True,True,True
+AIPROJ-1078,Technology,Enterprise (5000+),Europe,Predictive Analytics,Succeeded,49.3,24,Siloed Organizational Structure,Lack of Skilled Talent,6,7,2,7,2024,225.2,False,True,True
+AIPROJ-1079,Technology,Mid-size (200-1000),Asia-Pacific,Predictive Analytics,Failed,0.9,22,Regulatory/Compliance Hurdles,Lack of Executive Sponsorship,5,2,6,2,2019,25.2,False,True,False
+AIPROJ-1080,Retail,Mid-size (200-1000),Europe,Recommendation Engine,Partial Failure,0.57,16,No Clear Business Use Case,Insufficient Budget,5,3,5,2,2019,32.8,True,False,False
+AIPROJ-1081,Education,Enterprise (5000+),Asia-Pacific,Process Automation,Ongoing (At Risk),32.47,9,Siloed Organizational Structure,Model Performance Gaps,4,5,1,3,2019,,False,True,True
+AIPROJ-1082,Manufacturing,Enterprise (5000+),Latin America,Fraud Detection,Failed,27.34,7,Lack of Executive Sponsorship,Poor Data Quality,5,3,5,4,2023,-36.7,False,True,False
+AIPROJ-1083,Education,Enterprise (5000+),North America,Predictive Analytics,Partial Failure,8.42,16,Insufficient Budget,Siloed Organizational Structure,3,5,7,2,2022,45.9,False,True,False
+AIPROJ-1084,Manufacturing,Enterprise (5000+),Europe,Predictive Analytics,Succeeded,34.65,23,Model Performance Gaps,Vendor/Tech Dependency,7,7,2,7,2019,153.3,True,True,True
+AIPROJ-1085,Education,Large (1000-5000),Latin America,Generative AI,Failed,2.96,13,No Clear Business Use Case,Vendor/Tech Dependency,5,3,3,4,2020,-14.2,True,True,True
+AIPROJ-1086,Financial Services,Enterprise (5000+),Middle East & Africa,Process Automation,Succeeded,6.67,9,Poor Data Quality,No Clear Business Use Case,8,6,8,6,2024,150.4,True,True,True
+AIPROJ-1087,Education,Mid-size (200-1000),Latin America,Computer Vision,Ongoing (At Risk),1.61,3,Poor Data Quality,Regulatory/Compliance Hurdles,5,3,7,4,2022,,True,True,True
+AIPROJ-1088,Government,Mid-size (200-1000),Latin America,Predictive Analytics,Succeeded,1.7,17,Regulatory/Compliance Hurdles,Siloed Organizational Structure,6,9,10,6,2021,127.2,True,True,False
+AIPROJ-1089,Education,Large (1000-5000),North America,Recommendation Engine,Failed,5.74,26,Poor Data Quality,Lack of Executive Sponsorship,5,3,6,6,2019,-20.8,True,True,False
+AIPROJ-1090,Government,Mid-size (200-1000),North America,Fraud Detection,Ongoing (At Risk),0.83,16,Poor Data Quality,Lack of Skilled Talent,4,2,10,3,2020,,True,False,True
+AIPROJ-1091,Manufacturing,Small (<200),Middle East & Africa,Computer Vision,Partial Failure,0.44,21,Change Management Issues,No Clear Business Use Case,3,3,5,4,2022,68.9,True,True,False
+AIPROJ-1092,Healthcare,Mid-size (200-1000),Latin America,Generative AI,Succeeded,0.76,26,Insufficient Budget,Model Performance Gaps,6,6,6,6,2020,170.3,True,True,True
+AIPROJ-1093,Healthcare,Mid-size (200-1000),Asia-Pacific,NLP/Chatbot,Succeeded,1.79,4,Lack of Executive Sponsorship,Poor Data Quality,6,7,1,7,2021,137.5,False,True,True
+AIPROJ-1094,Education,Enterprise (5000+),Europe,NLP/Chatbot,Partial Failure,21.77,23,Lack of Executive Sponsorship,Change Management Issues,3,2,5,5,2019,23.8,True,True,True
+AIPROJ-1095,Technology,Small (<200),Middle East & Africa,Fraud Detection,Succeeded,0.31,18,Poor Data Quality,Model Performance Gaps,8,8,9,7,2023,170.5,True,False,False
+AIPROJ-1096,Education,Large (1000-5000),North America,Process Automation,Succeeded,8.94,22,Regulatory/Compliance Hurdles,Poor Data Quality,8,8,7,8,2022,170.9,True,True,False
+AIPROJ-1097,Energy,Small (<200),Latin America,Predictive Analytics,Partial Failure,0.45,19,Siloed Organizational Structure,No Clear Business Use Case,4,2,7,4,2022,7.1,True,False,False
+AIPROJ-1098,Retail,Large (1000-5000),Middle East & Africa,Fraud Detection,Partial Failure,8.24,19,Vendor/Tech Dependency,Siloed Organizational Structure,3,5,5,5,2022,16.2,False,True,False
+AIPROJ-1099,Education,Large (1000-5000),Asia-Pacific,Fraud Detection,Failed,8.17,22,Change Management Issues,Lack of Skilled Talent,5,3,5,7,2021,-44.8,False,False,True
+AIPROJ-1100,Energy,Mid-size (200-1000),Latin America,Process Automation,Failed,0.99,27,Lack of Executive Sponsorship,Model Performance Gaps,4,3,9,1,2021,-74.0,True,True,False
+AIPROJ-1101,Financial Services,Enterprise (5000+),Asia-Pacific,Computer Vision,Failed,42.8,13,Siloed Organizational Structure,Change Management Issues,5,4,5,3,2021,1.0,True,False,False
+AIPROJ-1102,Technology,Large (1000-5000),Asia-Pacific,Process Automation,Failed,3.7,18,Insufficient Budget,Lack of Executive Sponsorship,4,5,4,4,2019,-30.6,True,True,True
+AIPROJ-1103,Manufacturing,Small (<200),Europe,Generative AI,Failed,0.28,15,Model Performance Gaps,Vendor/Tech Dependency,4,3,7,3,2023,-56.8,True,True,True
+AIPROJ-1104,Manufacturing,Enterprise (5000+),Latin America,Recommendation Engine,Ongoing (At Risk),24.36,17,Poor Data Quality,No Clear Business Use Case,2,4,4,5,2021,,True,True,True
+AIPROJ-1105,Manufacturing,Enterprise (5000+),Europe,Predictive Analytics,Partial Failure,35.62,14,Lack of Executive Sponsorship,Regulatory/Compliance Hurdles,4,4,7,5,2022,50.2,False,True,True
+AIPROJ-1106,Government,Enterprise (5000+),Middle East & Africa,Predictive Analytics,Succeeded,11.41,20,Regulatory/Compliance Hurdles,Vendor/Tech Dependency,9,7,6,9,2021,109.9,True,True,False
+AIPROJ-1107,Technology,Large (1000-5000),Europe,NLP/Chatbot,Partial Failure,4.58,18,Change Management Issues,Model Performance Gaps,5,5,5,3,2019,49.2,False,True,True
+AIPROJ-1108,Retail,Mid-size (200-1000),Europe,Generative AI,Ongoing (At Risk),1.81,23,Siloed Organizational Structure,Insufficient Budget,5,5,7,3,2024,,True,False,True
+AIPROJ-1109,Technology,Small (<200),Europe,Predictive Analytics,Partial Failure,0.41,14,Change Management Issues,Model Performance Gaps,4,3,3,4,2020,76.3,False,True,False
+AIPROJ-1110,Technology,Small (<200),Middle East & Africa,Computer Vision,Failed,0.49,11,Insufficient Budget,Poor Data Quality,3,5,7,8,2019,-31.9,False,False,True
+AIPROJ-1111,Technology,Mid-size (200-1000),Latin America,NLP/Chatbot,Partial Failure,1.24,16,Poor Data Quality,Regulatory/Compliance Hurdles,3,3,2,4,2022,36.6,True,True,False
+AIPROJ-1112,Energy,Enterprise (5000+),Asia-Pacific,Computer Vision,Ongoing (At Risk),24.15,10,Poor Data Quality,Regulatory/Compliance Hurdles,2,4,7,6,2022,,False,False,True
+AIPROJ-1113,Healthcare,Small (<200),Latin America,Recommendation Engine,Succeeded,0.36,15,Lack of Skilled Talent,Poor Data Quality,6,6,7,7,2020,175.0,True,False,True
+AIPROJ-1114,Retail,Large (1000-5000),North America,Computer Vision,Failed,9.77,13,Lack of Skilled Talent,Lack of Executive Sponsorship,4,3,2,3,2022,-33.1,False,True,False
+AIPROJ-1115,Manufacturing,Enterprise (5000+),Latin America,Recommendation Engine,Failed,34.35,24,Insufficient Budget,Siloed Organizational Structure,3,1,8,6,2021,-58.1,True,False,True
+AIPROJ-1116,Financial Services,Small (<200),Europe,Generative AI,Failed,0.31,14,Change Management Issues,Regulatory/Compliance Hurdles,5,3,2,3,2024,0.0,True,False,False
+AIPROJ-1117,Healthcare,Mid-size (200-1000),Europe,Computer Vision,Ongoing (At Risk),1.04,23,Vendor/Tech Dependency,Lack of Skilled Talent,6,4,4,6,2020,,False,False,True
+AIPROJ-1118,Financial Services,Enterprise (5000+),Latin America,Generative AI,Failed,17.14,18,Lack of Executive Sponsorship,Siloed Organizational Structure,3,4,3,3,2021,-21.0,False,False,False
+AIPROJ-1119,Financial Services,Mid-size (200-1000),Asia-Pacific,Generative AI,Partial Failure,1.22,8,Insufficient Budget,Vendor/Tech Dependency,5,1,6,2,2019,46.8,True,False,False
+AIPROJ-1120,Manufacturing,Large (1000-5000),Middle East & Africa,Generative AI,Failed,7.39,14,Change Management Issues,Siloed Organizational Structure,7,3,5,5,2019,-20.1,False,False,True
+AIPROJ-1121,Manufacturing,Mid-size (200-1000),Asia-Pacific,Fraud Detection,Failed,1.75,20,No Clear Business Use Case,Lack of Skilled Talent,5,4,4,4,2019,-15.0,False,False,False
+AIPROJ-1122,Retail,Large (1000-5000),Middle East & Africa,Generative AI,Ongoing (At Risk),2.85,24,Lack of Executive Sponsorship,Insufficient Budget,4,4,8,4,2022,,True,False,False
+AIPROJ-1123,Healthcare,Enterprise (5000+),Asia-Pacific,Generative AI,Partial Failure,45.56,20,Model Performance Gaps,Insufficient Budget,3,5,4,5,2023,64.6,True,True,True
+AIPROJ-1124,Energy,Enterprise (5000+),North America,Process Automation,Partial Failure,36.3,9,Poor Data Quality,Siloed Organizational Structure,3,1,4,2,2024,77.8,False,False,True
+AIPROJ-1125,Government,Large (1000-5000),North America,NLP/Chatbot,Partial Failure,9.61,24,Change Management Issues,Poor Data Quality,4,2,5,1,2024,65.4,False,False,False
+AIPROJ-1126,Technology,Small (<200),Europe,Recommendation Engine,Failed,0.18,4,Vendor/Tech Dependency,Siloed Organizational Structure,4,4,5,4,2021,-30.7,True,False,False
+AIPROJ-1127,Retail,Enterprise (5000+),Latin America,NLP/Chatbot,Succeeded,28.95,12,Siloed Organizational Structure,Regulatory/Compliance Hurdles,6,7,4,9,2022,102.7,False,True,True
+AIPROJ-1128,Government,Large (1000-5000),North America,Fraud Detection,Ongoing (At Risk),2.86,18,No Clear Business Use Case,Model Performance Gaps,2,4,5,4,2022,,False,True,True
+AIPROJ-1129,Energy,Large (1000-5000),Latin America,Fraud Detection,Partial Failure,2.9,33,Vendor/Tech Dependency,Poor Data Quality,5,5,7,3,2022,23.4,False,False,True
+AIPROJ-1130,Healthcare,Large (1000-5000),Asia-Pacific,Predictive Analytics,Failed,8.24,22,Lack of Skilled Talent,Siloed Organizational Structure,3,6,3,4,2023,-45.6,False,False,True
+AIPROJ-1131,Financial Services,Enterprise (5000+),Latin America,NLP/Chatbot,Failed,44.12,32,Change Management Issues,Lack of Executive Sponsorship,1,3,3,2,2021,-42.9,False,True,False
+AIPROJ-1132,Energy,Enterprise (5000+),North America,Computer Vision,Partial Failure,27.35,13,Insufficient Budget,Lack of Executive Sponsorship,6,6,4,4,2020,77.6,True,False,True
+AIPROJ-1133,Technology,Enterprise (5000+),Latin America,NLP/Chatbot,Ongoing (At Risk),31.81,7,Poor Data Quality,Insufficient Budget,2,5,2,5,2024,,False,False,True
+AIPROJ-1134,Retail,Large (1000-5000),Middle East & Africa,NLP/Chatbot,Partial Failure,9.04,16,Vendor/Tech Dependency,Model Performance Gaps,5,7,3,2,2019,58.9,False,False,True
+AIPROJ-1135,Manufacturing,Small (<200),Latin America,NLP/Chatbot,Partial Failure,0.14,29,No Clear Business Use Case,Vendor/Tech Dependency,4,4,4,4,2024,13.9,False,False,True
+AIPROJ-1136,Technology,Large (1000-5000),Latin America,Fraud Detection,Ongoing (At Risk),8.36,7,Siloed Organizational Structure,Vendor/Tech Dependency,2,3,7,4,2020,,False,False,True
+AIPROJ-1137,Energy,Mid-size (200-1000),Latin America,Computer Vision,Succeeded,1.8,18,Lack of Executive Sponsorship,Vendor/Tech Dependency,9,7,4,5,2024,83.5,True,True,True
+AIPROJ-1138,Retail,Small (<200),Asia-Pacific,Fraud Detection,Failed,0.26,30,Model Performance Gaps,Regulatory/Compliance Hurdles,2,5,5,4,2023,-30.0,False,False,False
+AIPROJ-1139,Technology,Small (<200),Asia-Pacific,Generative AI,Partial Failure,0.32,26,Insufficient Budget,Vendor/Tech Dependency,6,6,6,3,2020,36.0,False,True,True
+AIPROJ-1140,Energy,Enterprise (5000+),Asia-Pacific,Predictive Analytics,Failed,36.27,18,Vendor/Tech Dependency,Lack of Executive Sponsorship,4,5,6,3,2022,-13.6,False,False,False
+AIPROJ-1141,Energy,Large (1000-5000),Europe,Generative AI,Failed,9.62,21,Change Management Issues,Siloed Organizational Structure,5,4,3,1,2020,-29.3,True,False,False
+AIPROJ-1142,Education,Small (<200),Asia-Pacific,Generative AI,Partial Failure,0.22,3,Siloed Organizational Structure,Model Performance Gaps,4,4,3,4,2022,19.4,False,True,True
+AIPROJ-1143,Retail,Enterprise (5000+),North America,Computer Vision,Partial Failure,13.63,17,Vendor/Tech Dependency,Regulatory/Compliance Hurdles,2,5,8,3,2019,10.2,True,True,True
+AIPROJ-1144,Energy,Small (<200),Middle East & Africa,Recommendation Engine,Failed,0.14,15,Poor Data Quality,Change Management Issues,4,4,5,4,2022,-6.2,True,False,False
+AIPROJ-1145,Retail,Small (<200),Latin America,Fraud Detection,Succeeded,0.39,15,Insufficient Budget,Model Performance Gaps,8,6,8,4,2023,253.0,True,True,False
+AIPROJ-1146,Education,Small (<200),Asia-Pacific,Fraud Detection,Failed,0.27,15,Vendor/Tech Dependency,Model Performance Gaps,4,5,3,4,2021,-52.4,True,True,False
+AIPROJ-1147,Energy,Small (<200),Middle East & Africa,NLP/Chatbot,Ongoing (At Risk),0.18,9,Change Management Issues,Regulatory/Compliance Hurdles,3,4,9,2,2020,,True,False,True
+AIPROJ-1148,Healthcare,Enterprise (5000+),North America,Fraud Detection,Ongoing (At Risk),26.42,15,Lack of Skilled Talent,Vendor/Tech Dependency,2,1,8,3,2020,,False,True,True
+AIPROJ-1149,Technology,Small (<200),North America,Predictive Analytics,Ongoing (At Risk),0.48,19,Poor Data Quality,Regulatory/Compliance Hurdles,4,5,4,3,2021,,True,False,False
+AIPROJ-1150,Government,Enterprise (5000+),Europe,Computer Vision,Ongoing (At Risk),8.0,25,Vendor/Tech Dependency,Model Performance Gaps,2,4,5,6,2023,,False,True,True
+AIPROJ-1151,Retail,Mid-size (200-1000),Europe,NLP/Chatbot,Ongoing (At Risk),1.49,17,Lack of Executive Sponsorship,Model Performance Gaps,4,4,4,2,2023,,False,False,False
+AIPROJ-1152,Manufacturing,Enterprise (5000+),Middle East & Africa,Computer Vision,Ongoing (At Risk),13.33,4,Change Management Issues,Vendor/Tech Dependency,6,5,7,2,2024,,False,False,False
+AIPROJ-1153,Technology,Enterprise (5000+),Asia-Pacific,Generative AI,Failed,16.49,16,Poor Data Quality,Vendor/Tech Dependency,4,4,6,3,2021,-16.3,True,True,False
+AIPROJ-1154,Retail,Small (<200),Latin America,Predictive Analytics,Ongoing (At Risk),0.33,22,Lack of Executive Sponsorship,Insufficient Budget,5,2,6,4,2024,,True,True,True
+AIPROJ-1155,Education,Large (1000-5000),Latin America,Fraud Detection,Partial Failure,5.11,16,Insufficient Budget,Change Management Issues,3,3,5,4,2022,38.6,False,False,False
+AIPROJ-1156,Energy,Small (<200),Europe,Recommendation Engine,Succeeded,0.44,17,Lack of Executive Sponsorship,Regulatory/Compliance Hurdles,7,8,5,9,2023,164.6,False,False,True
+AIPROJ-1157,Technology,Large (1000-5000),North America,Fraud Detection,Failed,8.03,22,Model Performance Gaps,Insufficient Budget,4,1,4,4,2019,-42.0,False,True,False
+AIPROJ-1158,Financial Services,Enterprise (5000+),Asia-Pacific,Fraud Detection,Succeeded,37.98,19,Change Management Issues,Model Performance Gaps,9,8,1,7,2020,217.5,False,True,False
+AIPROJ-1159,Manufacturing,Large (1000-5000),Europe,Generative AI,Partial Failure,3.29,21,Lack of Skilled Talent,Poor Data Quality,6,4,6,4,2021,27.9,False,False,True
+AIPROJ-1160,Energy,Small (<200),Middle East & Africa,Predictive Analytics,Partial Failure,0.39,14,No Clear Business Use Case,Lack of Skilled Talent,2,4,7,3,2021,42.3,False,False,False
+AIPROJ-1161,Government,Enterprise (5000+),Europe,Computer Vision,Failed,38.73,18,No Clear Business Use Case,Lack of Executive Sponsorship,5,5,6,4,2021,-25.4,True,True,False
+AIPROJ-1162,Technology,Mid-size (200-1000),Asia-Pacific,Fraud Detection,Ongoing (At Risk),1.83,3,Siloed Organizational Structure,Insufficient Budget,1,6,8,2,2024,,True,False,True
+AIPROJ-1163,Government,Small (<200),Latin America,NLP/Chatbot,Failed,0.26,23,No Clear Business Use Case,Insufficient Budget,4,6,5,3,2024,-36.3,False,False,False
+AIPROJ-1164,Education,Large (1000-5000),North America,Fraud Detection,Ongoing (At Risk),8.44,22,Model Performance Gaps,Poor Data Quality,3,2,5,3,2021,,False,False,True
+AIPROJ-1165,Healthcare,Enterprise (5000+),Asia-Pacific,Generative AI,Succeeded,28.41,15,Insufficient Budget,Siloed Organizational Structure,6,7,3,8,2024,121.7,False,True,False
+AIPROJ-1166,Government,Small (<200),Europe,Recommendation Engine,Succeeded,0.36,16,Poor Data Quality,Lack of Executive Sponsorship,9,6,4,7,2021,190.9,True,True,False
+AIPROJ-1167,Manufacturing,Small (<200),Latin America,Generative AI,Failed,0.33,16,Insufficient Budget,Siloed Organizational Structure,5,6,8,5,2019,-41.7,False,False,False
+AIPROJ-1168,Retail,Small (<200),North America,Predictive Analytics,Partial Failure,0.29,10,Siloed Organizational Structure,Lack of Skilled Talent,4,6,8,3,2019,33.0,False,False,True
+AIPROJ-1169,Manufacturing,Mid-size (200-1000),Latin America,Recommendation Engine,Succeeded,1.21,20,Regulatory/Compliance Hurdles,Lack of Executive Sponsorship,6,6,3,4,2022,125.8,True,False,True
+AIPROJ-1170,Retail,Enterprise (5000+),North America,Fraud Detection,Failed,45.79,22,Siloed Organizational Structure,Model Performance Gaps,4,2,1,2,2021,-25.1,False,True,False
+AIPROJ-1171,Financial Services,Large (1000-5000),Europe,Recommendation Engine,Succeeded,8.3,18,Siloed Organizational Structure,Change Management Issues,7,10,3,7,2021,94.2,False,False,True
+AIPROJ-1172,Healthcare,Large (1000-5000),Middle East & Africa,Generative AI,Failed,3.21,11,Regulatory/Compliance Hurdles,Poor Data Quality,3,2,5,5,2022,-50.3,False,False,False
+AIPROJ-1173,Technology,Mid-size (200-1000),North America,Fraud Detection,Succeeded,1.32,18,Siloed Organizational Structure,Lack of Skilled Talent,6,8,5,8,2024,161.2,True,False,True
+AIPROJ-1174,Manufacturing,Small (<200),North America,Fraud Detection,Partial Failure,0.36,12,Regulatory/Compliance Hurdles,Change Management Issues,3,4,8,4,2020,32.1,False,False,True
+AIPROJ-1175,Manufacturing,Small (<200),Middle East & Africa,Computer Vision,Succeeded,0.32,17,Lack of Executive Sponsorship,Change Management Issues,8,8,3,7,2020,208.3,True,False,True
+AIPROJ-1176,Government,Mid-size (200-1000),Middle East & Africa,NLP/Chatbot,Partial Failure,1.86,20,Insufficient Budget,No Clear Business Use Case,4,8,6,2,2020,36.5,False,True,True
+AIPROJ-1177,Technology,Mid-size (200-1000),North America,Generative AI,Failed,0.64,24,Poor Data Quality,Change Management Issues,6,3,3,2,2019,-52.8,False,False,True
+AIPROJ-1178,Government,Mid-size (200-1000),Middle East & Africa,Predictive Analytics,Ongoing (At Risk),1.69,21,Poor Data Quality,Change Management Issues,5,3,4,4,2021,,False,True,True
+AIPROJ-1179,Financial Services,Mid-size (200-1000),Latin America,Process Automation,Failed,1.05,22,Lack of Skilled Talent,No Clear Business Use Case,5,5,4,4,2022,-40.8,True,True,False
+AIPROJ-1180,Energy,Large (1000-5000),Middle East & Africa,Process Automation,Succeeded,7.34,11,Lack of Skilled Talent,Vendor/Tech Dependency,7,7,7,8,2023,248.6,True,False,True
+AIPROJ-1181,Manufacturing,Small (<200),Middle East & Africa,Predictive Analytics,Partial Failure,0.49,10,Siloed Organizational Structure,Poor Data Quality,2,4,6,2,2019,28.2,False,False,True
+AIPROJ-1182,Energy,Enterprise (5000+),Latin America,Generative AI,Failed,37.04,14,Lack of Skilled Talent,Vendor/Tech Dependency,3,3,1,5,2024,-4.9,False,False,False
+AIPROJ-1183,Energy,Small (<200),North America,Predictive Analytics,Succeeded,0.44,15,Lack of Executive Sponsorship,No Clear Business Use Case,7,6,6,8,2019,129.9,True,True,True
+AIPROJ-1184,Retail,Large (1000-5000),Middle East & Africa,Generative AI,Failed,4.43,21,Lack of Executive Sponsorship,Vendor/Tech Dependency,4,4,6,4,2024,-7.8,True,True,False
+AIPROJ-1185,Government,Enterprise (5000+),Middle East & Africa,Process Automation,Failed,12.61,8,Insufficient Budget,Vendor/Tech Dependency,2,3,2,3,2023,-50.3,False,True,False
+AIPROJ-1186,Education,Small (<200),North America,Fraud Detection,Failed,0.4,16,Vendor/Tech Dependency,Change Management Issues,5,3,7,4,2022,-23.7,False,False,False
+AIPROJ-1187,Energy,Mid-size (200-1000),Latin America,Predictive Analytics,Ongoing (At Risk),1.34,21,Siloed Organizational Structure,Model Performance Gaps,7,3,9,3,2022,,True,True,True
+AIPROJ-1188,Healthcare,Large (1000-5000),Latin America,Predictive Analytics,Failed,5.75,16,Insufficient Budget,Model Performance Gaps,5,1,3,2,2020,-11.0,False,True,False
+AIPROJ-1189,Energy,Small (<200),North America,Fraud Detection,Partial Failure,0.44,28,Lack of Skilled Talent,No Clear Business Use Case,3,1,7,2,2022,82.2,True,True,True
+AIPROJ-1190,Healthcare,Large (1000-5000),Europe,Process Automation,Failed,2.75,23,Poor Data Quality,Lack of Executive Sponsorship,4,5,6,8,2023,-66.2,True,True,True
+AIPROJ-1191,Government,Small (<200),Latin America,Predictive Analytics,Failed,0.17,13,Model Performance Gaps,Poor Data Quality,6,3,8,5,2021,-37.3,False,True,False
+AIPROJ-1192,Technology,Large (1000-5000),North America,Process Automation,Succeeded,6.81,14,Vendor/Tech Dependency,Change Management Issues,7,9,4,7,2020,115.3,True,False,False
+AIPROJ-1193,Energy,Mid-size (200-1000),North America,Predictive Analytics,Failed,1.2,10,Vendor/Tech Dependency,Regulatory/Compliance Hurdles,2,1,4,7,2019,-55.8,False,True,True
+AIPROJ-1194,Technology,Mid-size (200-1000),Latin America,Fraud Detection,Failed,0.83,3,Vendor/Tech Dependency,Lack of Executive Sponsorship,6,3,6,8,2019,-22.5,True,True,True
+AIPROJ-1195,Technology,Small (<200),Europe,Predictive Analytics,Succeeded,0.31,16,Insufficient Budget,Model Performance Gaps,7,8,5,6,2021,204.2,False,True,False
+AIPROJ-1196,Financial Services,Mid-size (200-1000),Europe,Process Automation,Ongoing (At Risk),0.96,13,Model Performance Gaps,Lack of Skilled Talent,3,4,8,5,2020,,True,False,False
+AIPROJ-1197,Financial Services,Small (<200),Middle East & Africa,Computer Vision,Ongoing (At Risk),0.14,24,Model Performance Gaps,Siloed Organizational Structure,7,3,7,5,2022,,True,True,False
+AIPROJ-1198,Government,Mid-size (200-1000),Asia-Pacific,Predictive Analytics,Partial Failure,1.39,13,Regulatory/Compliance Hurdles,Lack of Skilled Talent,4,5,6,4,2019,46.2,True,True,False
+AIPROJ-1199,Retail,Mid-size (200-1000),Middle East & Africa,NLP/Chatbot,Partial Failure,1.17,13,Lack of Skilled Talent,Regulatory/Compliance Hurdles,4,3,5,1,2022,66.0,True,True,True
+AIPROJ-1200,Education,Enterprise (5000+),Middle East & Africa,Recommendation Engine,Failed,40.5,15,Model Performance Gaps,Insufficient Budget,6,3,6,4,2020,-32.7,True,False,True
+AIPROJ-1201,Healthcare,Large (1000-5000),Latin America,NLP/Chatbot,Partial Failure,2.22,22,Insufficient Budget,Vendor/Tech Dependency,5,1,2,4,2023,36.9,False,True,True
+AIPROJ-1202,Technology,Small (<200),Europe,Recommendation Engine,Failed,0.36,18,Lack of Executive Sponsorship,Poor Data Quality,2,6,5,2,2019,-7.8,False,False,False
+AIPROJ-1203,Manufacturing,Large (1000-5000),Europe,Fraud Detection,Partial Failure,6.48,10,No Clear Business Use Case,Regulatory/Compliance Hurdles,4,4,1,1,2021,28.2,False,False,False
+AIPROJ-1204,Government,Small (<200),North America,Recommendation Engine,Failed,0.48,15,Model Performance Gaps,No Clear Business Use Case,5,3,7,4,2020,-32.1,True,False,False
+AIPROJ-1205,Education,Mid-size (200-1000),Middle East & Africa,Process Automation,Succeeded,1.22,20,Regulatory/Compliance Hurdles,Lack of Skilled Talent,6,7,6,6,2022,187.5,True,False,True
+AIPROJ-1206,Financial Services,Enterprise (5000+),North America,Recommendation Engine,Failed,17.16,15,Lack of Skilled Talent,Model Performance Gaps,4,4,7,1,2023,-33.4,False,True,True
+AIPROJ-1207,Education,Enterprise (5000+),Latin America,Predictive Analytics,Succeeded,38.06,11,Lack of Skilled Talent,Siloed Organizational Structure,6,6,5,8,2019,117.2,False,True,True
+AIPROJ-1208,Government,Mid-size (200-1000),Middle East & Africa,Recommendation Engine,Failed,1.95,20,Regulatory/Compliance Hurdles,Lack of Skilled Talent,4,4,7,4,2022,-23.8,True,True,False
+AIPROJ-1209,Healthcare,Mid-size (200-1000),Latin America,Process Automation,Partial Failure,0.55,15,Model Performance Gaps,Lack of Executive Sponsorship,3,4,5,6,2019,43.3,False,False,False
+AIPROJ-1210,Education,Large (1000-5000),Asia-Pacific,Computer Vision,Partial Failure,6.09,6,Regulatory/Compliance Hurdles,No Clear Business Use Case,8,3,7,3,2019,53.3,False,False,False
+AIPROJ-1211,Healthcare,Mid-size (200-1000),Asia-Pacific,Predictive Analytics,Failed,0.5,26,No Clear Business Use Case,Insufficient Budget,2,5,3,2,2019,-12.3,False,False,False
+AIPROJ-1212,Retail,Large (1000-5000),Europe,Computer Vision,Ongoing (At Risk),3.08,22,Lack of Executive Sponsorship,No Clear Business Use Case,3,2,4,5,2024,,True,True,False
+AIPROJ-1213,Healthcare,Mid-size (200-1000),Latin America,Recommendation Engine,Succeeded,0.8,25,Lack of Executive Sponsorship,Siloed Organizational Structure,6,7,5,6,2024,157.5,True,False,True
+AIPROJ-1214,Government,Large (1000-5000),Europe,Recommendation Engine,Partial Failure,5.26,16,Lack of Skilled Talent,Vendor/Tech Dependency,3,4,5,4,2022,57.2,True,False,True
+AIPROJ-1215,Technology,Large (1000-5000),Middle East & Africa,NLP/Chatbot,Succeeded,3.94,11,Regulatory/Compliance Hurdles,Lack of Executive Sponsorship,7,8,7,7,2019,131.4,True,True,False
+AIPROJ-1216,Technology,Enterprise (5000+),Latin America,NLP/Chatbot,Partial Failure,45.77,16,Poor Data Quality,Model Performance Gaps,1,5,3,4,2021,50.5,True,True,False
+AIPROJ-1217,Healthcare,Small (<200),Middle East & Africa,Process Automation,Failed,0.39,17,Vendor/Tech Dependency,Model Performance Gaps,6,4,8,4,2022,14.4,False,False,False
+AIPROJ-1218,Financial Services,Enterprise (5000+),Middle East & Africa,Generative AI,Succeeded,29.86,11,Change Management Issues,Model Performance Gaps,7,7,7,4,2023,143.9,True,False,False
+AIPROJ-1219,Energy,Mid-size (200-1000),North America,Recommendation Engine,Failed,1.1,22,Lack of Skilled Talent,Model Performance Gaps,5,5,5,2,2024,18.8,True,False,False
+AIPROJ-1220,Healthcare,Mid-size (200-1000),North America,Computer Vision,Failed,0.65,9,Siloed Organizational Structure,Vendor/Tech Dependency,3,3,7,4,2023,-26.1,True,True,False
+AIPROJ-1221,Retail,Large (1000-5000),Asia-Pacific,Predictive Analytics,Succeeded,7.4,22,Model Performance Gaps,Siloed Organizational Structure,7,8,7,6,2021,120.7,False,True,False
+AIPROJ-1222,Financial Services,Large (1000-5000),North America,Predictive Analytics,Succeeded,9.61,11,Lack of Skilled Talent,Lack of Executive Sponsorship,8,8,4,6,2024,150.6,True,False,True
+AIPROJ-1223,Education,Large (1000-5000),Asia-Pacific,Generative AI,Succeeded,5.81,19,Lack of Executive Sponsorship,No Clear Business Use Case,6,7,6,4,2021,198.5,True,True,False
+AIPROJ-1224,Healthcare,Mid-size (200-1000),Asia-Pacific,Predictive Analytics,Partial Failure,1.82,22,Model Performance Gaps,No Clear Business Use Case,2,1,7,4,2023,27.0,False,False,False
+AIPROJ-1225,Healthcare,Large (1000-5000),Middle East & Africa,Recommendation Engine,Failed,7.46,32,Regulatory/Compliance Hurdles,No Clear Business Use Case,3,5,6,4,2024,-0.4,True,False,True
+AIPROJ-1226,Healthcare,Enterprise (5000+),Middle East & Africa,Predictive Analytics,Partial Failure,20.18,16,Poor Data Quality,Model Performance Gaps,1,5,1,3,2021,45.3,False,False,True
+AIPROJ-1227,Retail,Mid-size (200-1000),Asia-Pacific,Fraud Detection,Partial Failure,1.64,7,Siloed Organizational Structure,Change Management Issues,4,3,4,4,2020,67.0,True,True,False
+AIPROJ-1228,Retail,Mid-size (200-1000),North America,Predictive Analytics,Failed,0.9,18,Lack of Skilled Talent,Lack of Executive Sponsorship,6,2,2,4,2023,-29.0,False,True,False
+AIPROJ-1229,Financial Services,Large (1000-5000),Middle East & Africa,Computer Vision,Succeeded,6.85,12,Lack of Executive Sponsorship,Model Performance Gaps,6,8,5,6,2020,241.3,True,False,True
+AIPROJ-1230,Retail,Mid-size (200-1000),Middle East & Africa,Fraud Detection,Succeeded,1.91,21,No Clear Business Use Case,Vendor/Tech Dependency,7,7,4,6,2019,121.1,True,False,False
+AIPROJ-1231,Education,Large (1000-5000),Europe,Recommendation Engine,Failed,4.21,18,Lack of Executive Sponsorship,Insufficient Budget,5,5,6,3,2024,-21.7,False,True,False
+AIPROJ-1232,Energy,Mid-size (200-1000),Middle East & Africa,Computer Vision,Ongoing (At Risk),0.59,12,Insufficient Budget,Vendor/Tech Dependency,7,1,5,7,2020,,True,False,False
+AIPROJ-1233,Government,Enterprise (5000+),Latin America,Fraud Detection,Succeeded,29.61,18,Insufficient Budget,Siloed Organizational Structure,7,6,7,7,2023,183.1,True,True,False
+AIPROJ-1234,Education,Mid-size (200-1000),Europe,Fraud Detection,Succeeded,1.78,17,Lack of Executive Sponsorship,No Clear Business Use Case,7,8,4,5,2021,116.3,True,False,True
+AIPROJ-1235,Financial Services,Enterprise (5000+),Asia-Pacific,Process Automation,Succeeded,37.95,18,Lack of Skilled Talent,Lack of Executive Sponsorship,8,6,6,7,2019,141.3,False,False,False
+AIPROJ-1236,Technology,Small (<200),Europe,Predictive Analytics,Failed,0.36,20,Siloed Organizational Structure,Lack of Executive Sponsorship,3,4,8,4,2020,-36.3,True,True,False
+AIPROJ-1237,Education,Small (<200),Europe,Fraud Detection,Partial Failure,0.42,17,Siloed Organizational Structure,Regulatory/Compliance Hurdles,4,2,4,5,2019,33.9,False,True,True
+AIPROJ-1238,Education,Small (<200),Latin America,Process Automation,Failed,0.26,9,Regulatory/Compliance Hurdles,Change Management Issues,2,1,5,4,2022,-28.0,True,False,False
+AIPROJ-1239,Healthcare,Large (1000-5000),Europe,NLP/Chatbot,Partial Failure,6.59,21,Regulatory/Compliance Hurdles,Lack of Skilled Talent,6,3,6,4,2024,53.8,True,False,True
+AIPROJ-1240,Government,Mid-size (200-1000),Europe,NLP/Chatbot,Partial Failure,1.37,12,Insufficient Budget,Vendor/Tech Dependency,6,4,3,2,2024,41.2,False,False,False
+AIPROJ-1241,Retail,Enterprise (5000+),Latin America,Process Automation,Partial Failure,14.2,23,Poor Data Quality,No Clear Business Use Case,3,2,4,4,2019,17.4,True,True,True
+AIPROJ-1242,Technology,Mid-size (200-1000),Europe,Process Automation,Partial Failure,1.72,26,Lack of Executive Sponsorship,Vendor/Tech Dependency,3,5,7,5,2022,26.0,False,True,True
+AIPROJ-1243,Healthcare,Large (1000-5000),Europe,Predictive Analytics,Failed,9.45,20,Lack of Skilled Talent,Poor Data Quality,5,1,10,5,2020,-33.5,False,False,True
+AIPROJ-1244,Education,Enterprise (5000+),North America,NLP/Chatbot,Failed,18.68,14,Siloed Organizational Structure,Lack of Executive Sponsorship,5,2,6,4,2019,-64.5,True,True,True
+AIPROJ-1245,Manufacturing,Mid-size (200-1000),Asia-Pacific,Recommendation Engine,Failed,0.69,13,Poor Data Quality,Model Performance Gaps,2,3,6,6,2020,-37.1,True,False,False
+AIPROJ-1246,Education,Mid-size (200-1000),North America,Process Automation,Failed,1.67,11,Regulatory/Compliance Hurdles,Lack of Skilled Talent,5,4,2,5,2023,-10.6,True,True,False
+AIPROJ-1247,Financial Services,Enterprise (5000+),Latin America,NLP/Chatbot,Failed,48.76,22,Model Performance Gaps,Regulatory/Compliance Hurdles,2,3,4,4,2021,-34.1,True,True,True
+AIPROJ-1248,Financial Services,Large (1000-5000),North America,Predictive Analytics,Failed,9.83,17,Change Management Issues,Lack of Skilled Talent,5,5,6,6,2023,-30.1,True,True,False
+AIPROJ-1249,Government,Mid-size (200-1000),North America,Predictive Analytics,Partial Failure,1.86,22,Vendor/Tech Dependency,Regulatory/Compliance Hurdles,4,3,7,4,2024,47.6,False,False,True
+AIPROJ-1250,Retail,Enterprise (5000+),Latin America,Generative AI,Succeeded,7.33,12,No Clear Business Use Case,Change Management Issues,9,7,5,7,2019,154.7,True,True,False
+AIPROJ-1251,Energy,Small (<200),Asia-Pacific,Computer Vision,Succeeded,0.37,26,Poor Data Quality,Insufficient Budget,6,8,5,8,2019,136.8,False,False,False
+AIPROJ-1252,Government,Large (1000-5000),Middle East & Africa,Recommendation Engine,Succeeded,2.1,15,Vendor/Tech Dependency,Siloed Organizational Structure,7,7,1,7,2021,103.8,True,True,True
+AIPROJ-1253,Financial Services,Mid-size (200-1000),Asia-Pacific,Predictive Analytics,Succeeded,1.41,9,Poor Data Quality,Model Performance Gaps,6,6,5,6,2021,124.6,True,True,False
+AIPROJ-1254,Healthcare,Large (1000-5000),Latin America,Recommendation Engine,Ongoing (At Risk),7.37,19,Siloed Organizational Structure,Model Performance Gaps,2,4,8,3,2021,,True,True,True
+AIPROJ-1255,Retail,Enterprise (5000+),Latin America,Predictive Analytics,Succeeded,46.16,17,Vendor/Tech Dependency,Insufficient Budget,7,8,5,5,2019,154.6,True,True,True
+AIPROJ-1256,Education,Small (<200),Latin America,Process Automation,Partial Failure,0.21,17,No Clear Business Use Case,Lack of Executive Sponsorship,2,2,3,4,2021,46.4,False,True,True
+AIPROJ-1257,Government,Small (<200),North America,Predictive Analytics,Succeeded,0.13,28,Insufficient Budget,Regulatory/Compliance Hurdles,6,6,5,9,2022,175.8,True,False,True
+AIPROJ-1258,Education,Mid-size (200-1000),Latin America,Predictive Analytics,Ongoing (At Risk),1.56,8,Siloed Organizational Structure,Poor Data Quality,5,5,2,3,2024,,False,False,True
+AIPROJ-1259,Government,Enterprise (5000+),Asia-Pacific,Generative AI,Failed,33.24,19,Poor Data Quality,No Clear Business Use Case,5,3,6,4,2024,-15.6,False,False,False
+AIPROJ-1260,Education,Large (1000-5000),Middle East & Africa,Fraud Detection,Succeeded,2.82,12,No Clear Business Use Case,Poor Data Quality,7,7,5,6,2020,139.7,True,True,True
+AIPROJ-1261,Energy,Small (<200),Europe,NLP/Chatbot,Partial Failure,0.5,22,Change Management Issues,Model Performance Gaps,4,1,7,5,2021,56.7,False,True,False
+AIPROJ-1262,Education,Small (<200),Middle East & Africa,Computer Vision,Failed,0.2,11,Siloed Organizational Structure,Regulatory/Compliance Hurdles,3,2,8,3,2021,2.3,True,False,True
+AIPROJ-1263,Energy,Small (<200),Middle East & Africa,Computer Vision,Succeeded,0.25,23,Vendor/Tech Dependency,Regulatory/Compliance Hurdles,5,7,4,8,2022,77.9,False,False,True
+AIPROJ-1264,Government,Large (1000-5000),Europe,NLP/Chatbot,Partial Failure,9.37,18,Poor Data Quality,Change Management Issues,6,7,3,1,2022,51.1,False,True,True
+AIPROJ-1265,Education,Small (<200),Asia-Pacific,Fraud Detection,Succeeded,0.36,22,Insufficient Budget,Vendor/Tech Dependency,7,9,3,7,2020,129.1,True,False,True
+AIPROJ-1266,Technology,Enterprise (5000+),Europe,NLP/Chatbot,Failed,18.55,26,No Clear Business Use Case,Lack of Skilled Talent,3,4,7,3,2022,-25.0,True,False,False
+AIPROJ-1267,Retail,Enterprise (5000+),North America,Fraud Detection,Succeeded,10.03,15,Regulatory/Compliance Hurdles,Model Performance Gaps,8,7,7,7,2024,199.4,True,False,True
+AIPROJ-1268,Healthcare,Large (1000-5000),Asia-Pacific,Fraud Detection,Partial Failure,6.28,16,No Clear Business Use Case,Change Management Issues,2,2,6,4,2021,56.0,False,False,False
+AIPROJ-1269,Manufacturing,Small (<200),Europe,Fraud Detection,Partial Failure,0.21,16,No Clear Business Use Case,Insufficient Budget,3,2,4,5,2022,74.0,False,False,False
+AIPROJ-1270,Financial Services,Large (1000-5000),Middle East & Africa,Process Automation,Ongoing (At Risk),5.51,18,Regulatory/Compliance Hurdles,Vendor/Tech Dependency,2,4,3,4,2023,,False,True,True
+AIPROJ-1271,Retail,Small (<200),North America,Predictive Analytics,Partial Failure,0.4,18,Model Performance Gaps,Vendor/Tech Dependency,6,3,7,1,2023,56.0,True,False,False
+AIPROJ-1272,Education,Enterprise (5000+),Middle East & Africa,NLP/Chatbot,Failed,20.94,16,No Clear Business Use Case,Model Performance Gaps,4,7,6,1,2024,-41.3,True,False,False
+AIPROJ-1273,Healthcare,Enterprise (5000+),Latin America,Generative AI,Succeeded,23.66,21,Vendor/Tech Dependency,Regulatory/Compliance Hurdles,7,6,8,6,2020,170.9,True,True,False
+AIPROJ-1274,Retail,Mid-size (200-1000),Latin America,Process Automation,Ongoing (At Risk),1.3,19,Poor Data Quality,No Clear Business Use Case,3,3,3,4,2023,,True,True,False
+AIPROJ-1275,Retail,Large (1000-5000),Europe,Computer Vision,Ongoing (At Risk),8.18,13,Regulatory/Compliance Hurdles,Change Management Issues,6,4,3,6,2021,,False,True,False
+AIPROJ-1276,Technology,Small (<200),Asia-Pacific,Computer Vision,Failed,0.1,19,Vendor/Tech Dependency,Insufficient Budget,7,4,6,3,2020,-5.5,True,True,False
+AIPROJ-1277,Technology,Small (<200),Middle East & Africa,Generative AI,Partial Failure,0.43,15,No Clear Business Use Case,Change Management Issues,1,4,5,2,2020,31.5,True,False,True
+AIPROJ-1278,Government,Small (<200),North America,NLP/Chatbot,Partial Failure,0.49,19,Poor Data Quality,Regulatory/Compliance Hurdles,3,3,4,3,2024,71.9,False,True,True
+AIPROJ-1279,Manufacturing,Enterprise (5000+),Middle East & Africa,Generative AI,Partial Failure,8.15,22,Poor Data Quality,Vendor/Tech Dependency,6,2,8,3,2024,42.4,True,False,True
+AIPROJ-1280,Technology,Large (1000-5000),Latin America,Computer Vision,Failed,7.29,16,Model Performance Gaps,Insufficient Budget,4,5,6,2,2022,-28.4,False,False,False
+AIPROJ-1281,Healthcare,Small (<200),Europe,Recommendation Engine,Partial Failure,0.24,24,Model Performance Gaps,Vendor/Tech Dependency,5,2,8,2,2022,71.1,True,False,False
+AIPROJ-1282,Manufacturing,Large (1000-5000),Middle East & Africa,Computer Vision,Succeeded,6.78,22,Regulatory/Compliance Hurdles,Model Performance Gaps,7,9,7,7,2024,96.3,True,False,True
+AIPROJ-1283,Government,Enterprise (5000+),Europe,Fraud Detection,Partial Failure,13.34,24,Regulatory/Compliance Hurdles,Lack of Executive Sponsorship,4,4,6,4,2023,77.2,False,False,True
+AIPROJ-1284,Healthcare,Large (1000-5000),Europe,Recommendation Engine,Succeeded,7.28,14,Lack of Skilled Talent,Regulatory/Compliance Hurdles,8,6,7,7,2022,167.1,True,True,False
+AIPROJ-1285,Manufacturing,Mid-size (200-1000),North America,NLP/Chatbot,Partial Failure,0.92,24,Insufficient Budget,Siloed Organizational Structure,5,3,8,5,2023,61.3,True,False,True
+AIPROJ-1286,Education,Mid-size (200-1000),Europe,Fraud Detection,Failed,0.55,16,Regulatory/Compliance Hurdles,Model Performance Gaps,5,3,5,2,2020,-6.7,False,True,False
+AIPROJ-1287,Retail,Enterprise (5000+),Middle East & Africa,Recommendation Engine,Ongoing (At Risk),24.64,13,Siloed Organizational Structure,Insufficient Budget,4,5,6,7,2022,,True,True,True
+AIPROJ-1288,Financial Services,Small (<200),Latin America,Process Automation,Failed,0.24,10,Siloed Organizational Structure,Change Management Issues,5,6,7,2,2020,-17.6,False,False,True
+AIPROJ-1289,Government,Small (<200),North America,Predictive Analytics,Partial Failure,0.1,25,Siloed Organizational Structure,Vendor/Tech Dependency,4,5,2,1,2021,48.9,False,False,False
+AIPROJ-1290,Financial Services,Small (<200),Latin America,Computer Vision,Partial Failure,0.19,14,Insufficient Budget,Model Performance Gaps,5,4,5,4,2022,15.6,False,False,True
+AIPROJ-1291,Government,Small (<200),Latin America,NLP/Chatbot,Succeeded,0.28,18,Lack of Executive Sponsorship,Vendor/Tech Dependency,7,8,7,6,2020,124.2,True,True,False
+AIPROJ-1292,Government,Large (1000-5000),North America,Recommendation Engine,Failed,3.25,18,Vendor/Tech Dependency,Siloed Organizational Structure,6,6,6,2,2023,9.7,False,False,True
+AIPROJ-1293,Technology,Small (<200),Europe,NLP/Chatbot,Ongoing (At Risk),0.11,14,Model Performance Gaps,Regulatory/Compliance Hurdles,4,2,9,3,2021,,False,False,True
+AIPROJ-1294,Government,Mid-size (200-1000),Europe,Process Automation,Partial Failure,0.73,8,Vendor/Tech Dependency,Model Performance Gaps,5,4,7,1,2023,67.3,True,False,True
+AIPROJ-1295,Financial Services,Small (<200),North America,Computer Vision,Failed,0.47,9,Regulatory/Compliance Hurdles,Vendor/Tech Dependency,5,5,8,4,2023,-30.0,False,True,False
+AIPROJ-1296,Energy,Mid-size (200-1000),Middle East & Africa,Process Automation,Failed,1.7,19,No Clear Business Use Case,Model Performance Gaps,5,4,6,3,2023,-33.9,False,True,False
+AIPROJ-1297,Government,Mid-size (200-1000),Latin America,Process Automation,Succeeded,0.96,26,Insufficient Budget,Model Performance Gaps,7,6,4,6,2023,143.5,False,False,True
+AIPROJ-1298,Energy,Large (1000-5000),Latin America,Fraud Detection,Failed,9.78,7,Poor Data Quality,Model Performance Gaps,3,3,7,2,2021,-45.2,True,True,False
+AIPROJ-1299,Healthcare,Enterprise (5000+),Middle East & Africa,Predictive Analytics,Partial Failure,18.61,19,Poor Data Quality,Vendor/Tech Dependency,4,3,4,4,2021,62.0,False,False,True
