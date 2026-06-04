@@ -20,18 +20,17 @@ The full pipeline covers data generation, exploratory analysis, statistical test
 ```
 why-ai-fails/
 │
-├── data/
-│   └── ai_projects.csv          # 300 synthetic AI projects (19 columns)
+├── ai_projects.csv          # 300 synthetic AI projects (19 columns)
 │
-├── python/
-│   ├── generate_data.py         # Synthetic dataset generator
-│   └── analysis.py              # Full EDA, statistical tests, visualizations
+├──
+│   ├── ai_dta.ipynb         # Synthetic dataset generator
+│   └── analysis.ipynb              # Full EDA, statistical tests, visualizations
 │
-├── sql/
+├──
 │   └── queries.sql              # Schema + 10 analytical queries + dashboard view
 │
-├── outputs/
-│   └── ai_failure_analysis.png  # 6-panel matplotlib figure
+├──
+│   └── Enterprise_AI_Fails_dash.png  # Tableau figure
 │
 └── README.md
 ```
@@ -83,7 +82,7 @@ Critically, the data was built with structural realism — not random assignment
 ### Step 1 — Generate Dataset
 
 ```bash
-python python/generate_data.py
+python python/ai_dta.ipynb
 ```
 
 Generates `data/ai_projects.csv` with 300 synthetic but statistically realistic records. The generator uses calibrated normal distributions for scores, industry-specific outcome probabilities, and budget ranges by company size.
@@ -91,7 +90,7 @@ Generates `data/ai_projects.csv` with 300 synthetic but statistically realistic 
 ### Step 2 — Run Analysis
 
 ```bash
-python python/analysis.py
+python python/analysis.ipynb
 ```
 
 Executes the following steps in order:
@@ -245,10 +244,10 @@ scikit-learn>=1.3
 
 ```bash
 # Step 1: Generate dataset
-python python/generate_data.py
+python python/ai_dta.ipynb
 
 # Step 2: Run full analysis
-python python/analysis.py
+python python/analysis.ipynb
 
 # Step 3: Load ai_projects.csv into Tableau or run queries.sql in your SQL client
 ```
