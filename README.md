@@ -70,6 +70,14 @@ why-ai-fails/
 
 ***
 
+**Data Generation Methodology**
+
+Real enterprise AI project data is almost never publicly available — companies don't publish internal post-mortems, failure rates are underreported, and sensitive organizational details stay behind NDAs. To enable rigorous analysis, we generated a synthetic dataset of 300 AI projects calibrated against published research (McKinsey Global AI Survey, Gartner failure rate studies, Stanford HAI Index Report). The ~62% failure rate, budget ranges by company size, and score distributions were all anchored to real-world estimates before a single row was generated.
+
+Critically, the data was built with structural realism — not random assignment. Succeeded projects were sampled from higher score distributions (data readiness ~7.5, leadership ~7.8) while failed projects drew from lower ones (~4.5, ~4.2), governance presence raised success probability, and budgets scaled with company size. This means correlations, t-tests, and chi-square tests return statistically meaningful results rather than noise. A fixed random seed (np.random.seed(42)) ensures full reproducibility across runs.
+
+***
+
 ## Python Pipeline
 
 ### Step 1 — Generate Dataset
@@ -247,11 +255,12 @@ python python/analysis.py
 
 ***
 
-## Authors
+## Author
 
-**[Your Name]**  
-[Your Department / Institution]  
-[Your Course / Project Context] — [Month Year]
+**Mayank**  
+Department of Economic Sciences,
+IIT Kanpur, India
+May 2026
 
 ***
 
