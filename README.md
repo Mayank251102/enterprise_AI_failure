@@ -224,7 +224,7 @@ AVERAGEX(ai_projects,
 
 ```bash
 git clone https://github.com/Mayank251102/enterprise_AI_failure.git
-cd why-ai-fails
+cd enterprise_AI_failure
 pip install -r requirements.txt
 ```
 
