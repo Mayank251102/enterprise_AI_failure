@@ -223,7 +223,7 @@ AVERAGEX(ai_projects,
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/why-ai-fails.git
+git clone https://github.com/Mayank251102/enterprise_AI_failure.git
 cd why-ai-fails
 pip install -r requirements.txt
 ```
